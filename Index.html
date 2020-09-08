@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paju's html</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .background{
+            background-color: salmon;
+            color: seashell;
+            
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Basics -->
+    <h1>Hello world<h1>
+    <h2>Hello world<h2>
+    <h3>Hello world<h3>
+    <h4>Hello world<h4>
+    <h5>Hello world<h5>
+    <h6>Hello world<h6>
+
+    <hr>
+    
+    <!-- Paragraphs -->
+<div>
+    <p title="This is a tooltip">Lorem <b>ipsum</b> dolor sit <em>amet</em> consectetur, adipisicing elit. Nulla labore <i>fuga</i> quis dolor cumque repellendus laboriosam dolore quidem in, sed alias, amet, nisi consequatur incidunt non ipsa distinctio recusandae accusamus!</p>
+    <p>Lorem ipsum dolor sit amet consectetur, <strong>adipisicing</strong> elit. Nulla labore fuga quis dolor <span style="color:rebeccapurple">cumque repellendus</span> laboriosam dolore quidem in, <del>sed alias</del>, amet, nisi consequatur incidunt non ipsa distinctio recusandae accusamus!<p>
+    <p class="background">Lorem ipsum dolor <ins><em>Paju</em></ins> sit amet consectetur, adipisicing elit. Nulla labore fuga quis <mark>dolor</mark> cumque repellendus laboriosam dolore <small>quidem</small> in, sed alias, amet, <sub>nisi</sub> consequatur incidunt non ipsa distinctiorecusandae <sup>accusamus</sup>!</p>
+</div>
+
+<!-- Images -->
+<img src="" alt="">
+
+<a href="#book">google</a>
+
+<p id="book">This is para</p>
+
+
+<!-- list -->
+<ol type="1"start="2">
+    <li>List element 1</li>
+      <ul>
+        <li>sub 1</li>
+        <li>sub 2</li>
+      </ul>    
+    <li>List element 2</li>
+    <li>List element 3</li>
+    <li>List element 4</li>
+    <li>List element 5</li>
+<ol> 
+ <br>   
+ <br>   
+ <br>   
+ <br>
+
+ 
+
+<!--Table -->
+<table>
+    <caption>This is a caption</caption>
+    <thead>
+        <tr>
+            <th>First name</th>
+            <th>Last name</th>
+            <th>Age</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Paju</td>
+            <td>Bharti</td>
+            <td>18</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td>Praj</td>
+            <td>Bharati</td>
+            <td>20</td>
+        </tr>
+    </tbody>
+</table>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th colspan="2">Phone no</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Prajwal</td>
+            <td>9292929290</td>
+            <td>7010270202</td>
+        </tr>
+    </tbody>
+</table>
+
+<br>
+<br>
+<br>
+<br>
+
+<table>
+    <tr>
+        <th>Name:</th>
+          <td>paju </td>
+    </tr>
+    <tr>
+      <th rowspan="2">Telephone:</th>
+         <td>9299290293</td>
+    </tr>     
+         <td>2243455565</td>
+    <tr>
+</table>
+<br>
+<br>
+<br>
+
+
+<!-- Form setup -->
+<form action="server.php">
+    <fieldset>
+        <legend>Personal Information</legend>
+        First Name :<br>
+        <input type="text" name="first name" placeholder="First name here"><br>
+        Last Name: <br>
+        <input type="text" name="last name"
+         placeholder="Last name here"><br><br>
+        
+        <input type="radio" name="options">Option 1
+        <input type="radio" name="options">Option 2<br>
+        
+        <input type="checkbox" name="options" checked>check 1
+        <input type="checkbox" name="options">check 2<br><br><br>
+
+        
+        <label for="carselect">Select:</label>
+        <select name="Cars" id="carselect" multiple>
+        <option value="BMW" selected>BMW</option>
+        <option value="Audi">Audi</option>
+        <option value="Mercedez">Mercedez</option>
+        </select><br><br>
+
+        <!-- Buttons -->
+        <button value="click">Click me</button><br><br>
+        
+
+
+        <input type="submit" value="submit"><br><br>
+
+
+
+    </fieldset>
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
